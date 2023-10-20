@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1318px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #FFD845;
+}
+
+.texts {
+    padding-left: 30px;
+}
+
+.card img {
+    padding: 30px 75px 68px 75px;
+}
+
+.card {
+    border-radius: 20px;
+    border: 2px solid #000;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(0.96);
+}
+
+.ageAndWeight {
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+    margin-top: 25px;
+    padding-bottom: 37px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    row-gap: 30px;
+    margin-bottom: 30px;
+}
+
+.buttons {
+    display: flex;
+    column-gap: 35px;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.buttons button {
+    padding: 16px 82px;
+    border-radius: 15px;
+    flex-shrink: 0;
+    border: 2px solid #000;
+    background: #FFF;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+.buttons button:active {
+    transform: scale(0.96);
+}
+
+.pokemon-logo {
+    padding: 50px 344px 70px 344px;
+}
+
+.summary {
+    padding-bottom: 334px;
+}
+
+.summary div {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
